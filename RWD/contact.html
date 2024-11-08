@@ -20,8 +20,75 @@
             </ul>
         </div>
     </nav>
-    <div>
-        <h1>Contact Page</h1>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <!-- contact form -->
+
+                <form>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Name*</label>
+                                <input type="text" class="form-control" id="exampleInputtext1" aria-describedby="textlHelp">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email id*</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Mobile No.*</label>
+                                <input type="number" class="form-control" id="exampleInputnumber">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Subject</label>
+                                <input type="text" class="form-control" id="exampleInputtext1" aria-describedby="textHelp">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Services</label>
+                                <select class="form-control">
+                                    <option>--Select--</option>
+                                    <option>Web Dev</option>
+                                    <option>Mobile App</option>
+                                    <option>Cloud Services</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Message.</label>
+                                <textarea class="form-control" rows="4"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-warning">Submit Comment</button>
+
+                </form>
+            </div>
+            <div class="col-6">
+                <!-- google fomr -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31104.470535525!2d77.67937015!3d12.9680882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1730958083740!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen=""
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
     </div>
 </body>
 
